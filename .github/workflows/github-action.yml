@@ -22,7 +22,7 @@ jobs:
           arguments: build
 
       - name: Start Spring app
-        run: java -jar build/libs/rest-0.0.1-SNAPSHOT.jar &
+        run: java -jar build/libs/demo-0.0.1-SNAPSHOT.jar &
 
       - name: Wait for Spring app to start
         run: sleep 7s  
